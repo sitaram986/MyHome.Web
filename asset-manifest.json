@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/homehub/static/js/main.2c6a20b7.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/homehub/static/js/787.d1d4a2c2.chunk.js",
+    "index.html": "/homehub/index.html",
+    "main.2c6a20b7.js.map": "/homehub/static/js/main.2c6a20b7.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/homehub/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2c6a20b7.js"
+  ]
+}
