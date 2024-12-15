@@ -113,28 +113,7 @@ const Header = () =>{
 									</div>
 								</div>
 							</div>
-						</li>
-						<li>
-							<div className="dropdown drp-user">
-								<a href="#" className="dropdown-toggle" data-toggle="dropdown">
-									<i className="feather icon-user"></i>
-								</a>
-								<div className="dropdown-menu dropdown-menu-right profile-notification">
-									<div className="pro-head">
-										<img src="../public/assets/images/user/avatar-1.jpg" className="img-radius" alt="User-Profile-Image" />
-										<span>John Doe</span>
-										<a href="auth-signin.html" className="dud-logout" title="Logout">
-											<i className="feather icon-log-out"></i>
-										</a>
-									</div>
-									<ul className="pro-body">
-										<li><a href="user-profile.html" className="dropdown-item"><i className="feather icon-user"></i> Profile</a></li>
-										<li><a href="email_inbox.html" className="dropdown-item"><i className="feather icon-mail"></i> My Messages</a></li>
-										<li><a href="auth-signin.html" className="dropdown-item"><i className="feather icon-lock"></i> Lock Screen</a></li>
-									</ul>
-								</div>
-							</div>
-						</li>
+						</li>						
 					</ul>
 				</div>
 	</header>
