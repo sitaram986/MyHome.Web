@@ -31,82 +31,20 @@ const Header = () =>{
 							</div>
 						</li>
 						<li className="nav-item">
-							<div className="dropdown mega-menu">
+							<div className="dropdown">
 								<a className="dropdown-toggle h-drop" href="#" data-toggle="dropdown">
 									Documents
 								</a>
 								<div className="dropdown-menu profile-notification ">
-									<div className="row no-gutters">
-										<div className="col">
-											<h6 className="mega-title">Education</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>My Self</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Kalyani</a></li>
-                                                <li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Karthik</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Krishna</a></li>
-											</ul>
-										</div>
-										<div className="col">
-											<h6 className="mega-title">Properties/Sale Deeds</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Mangalagiri Home</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Hyderabad Home</a></li>
-                                                <li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Hyderabad Land</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="fas fa-circle"></i>Polam</a></li>
-											</ul>
-										</div>
-										<div className="col">
-											<h6 className="mega-title">Experience</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> Delectus</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> Snap IT</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> OTSI</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> EPIQ</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> FORM 16 & IT Returns</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-minus"></i> Other</a></li>
-											</ul>
-										</div>
-										<div className="col">
-											<h6 className="mega-title">Loans</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-mail"></i>HDFC Personal Loan</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-clipboard"></i>LIC Housing Finance</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-check-square"></i>Car Loan</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-image"></i>Other EMI's</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-help-circle"></i>Other</a></li>
-											</ul>
-										</div>
-										<div className="col">
-											<h6 className="mega-title">Invistment/Insurance</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-mail"></i>HDFC Life Term Insurance</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-clipboard"></i>Postoffice RD</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-check-square"></i>SBI Life Insurance</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-image"></i>Mutual Funds</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-help-circle"></i>Stocks</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-help-circle"></i>Other</a></li>
-											</ul>
-										</div>
-										<div className="col">
-											<h6 className="mega-title">Address & ID Proofs</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-file-plus"></i>Aadhar</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-file-minus"></i>PAN</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-calendar"></i>RC & Driving Licence</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-scissors"></i>Other</a></li>
-											</ul>
-										</div>
-                                        <div className="col">
-											<h6 className="mega-title">Payments & Bills</h6>
-											<ul className="pro-body">
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-file-plus"></i>Power</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-file-minus"></i>Credit Card</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-calendar"></i>Internet</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-upload-cloud"></i>House Tax & Water</a></li>
-												<li><a href="#!" className="dropdown-item"><i className="feather icon-scissors"></i>Other</a></li>
-											</ul>
-										</div>
-									</div>
+									<ul className="pro-body">
+										<li><a href="user-profile.html" className="dropdown-item"><i className="fas fa-circle"></i>Experience</a></li>
+										<li><a href="email_inbox.html" className="dropdown-item"><i className="fas fa-circle"></i>Education</a></li>
+										<li><a href="auth-signin.html" className="dropdown-item"><i className="fas fa-circle"></i>Address/ID Proofs</a></li>
+										<li><a href="auth-signin.html" className="dropdown-item"><i className="fas fa-circle"></i>Properties/Sale Deed</a></li>
+										<li><a href="auth-signin.html" className="dropdown-item"><i className="fas fa-circle"></i>Receipts/Payments</a></li>
+										<li><a href="auth-signin.html" className="dropdown-item"><i className="fas fa-circle"></i>Bank/Loans</a></li>
+                                        <li><a href="auth-signin.html" className="dropdown-item"><i className="fas fa-circle"></i>Invistments/Insurance</a></li>
+									</ul>
 								</div>
 							</div>
 						</li>
